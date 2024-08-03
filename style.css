@@ -1,0 +1,63 @@
+@import url("");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: hsl(0, 0%, 100%);
+
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--slate-300);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.QR-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    background-color: var(--white);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.QR-image{
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.context{
+
+}
+.content{
+
+}
+.attribution{
+
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--slate-900);
+}
