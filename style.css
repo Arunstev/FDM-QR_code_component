@@ -48,7 +48,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .context{
     font-family: 'Outfit', sans-serif;
