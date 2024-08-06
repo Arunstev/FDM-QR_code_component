@@ -35,7 +35,7 @@ body{
     padding: 15px;
     margin: 10px;
     background-color: var(--white);
-    box-shadow: 0 2px 10px var(--slate-500);
+    box-shadow: 0 2px 20px var(--slate-500);
     border-radius: 15px;
 }
 .QR-image{
